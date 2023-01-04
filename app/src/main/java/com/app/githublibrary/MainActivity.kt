@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
 import android.widget.Toast
-import com.app.mylibrarytest.ShowToast
+
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,10 +14,6 @@ class MainActivity : AppCompatActivity() {
 
         var abc_sign: TextView = findViewById(R.id.abc_sign);
         abc.showToast(this, "abc")
-
-        abc_sign.setOnClickListener {
-
-        }
-
+        abc_sign.setOnClickListener {}
     }
 }
